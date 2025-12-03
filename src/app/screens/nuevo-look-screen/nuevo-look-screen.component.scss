@@ -1,0 +1,99 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.body-nuevo-look {
+  width: 100%;
+  height: 90vh;
+  background-color: #FFFFFF;
+  overflow-y: scroll!important;
+  padding-top: 15px;
+  border-top: 1px solid #7A7A7A1F!important;
+  border-bottom: 1px solid #7A7A7A1F!important;
+}
+
+.titulo {
+  align-items: center;
+  width: 100%;
+  padding-top: 18px;
+  padding-left: 10px;
+
+}
+.titulo span {
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: Avenir-Bold;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.contenido {
+  padding: 10px;
+  padding-top: 25px;
+  line-height: 2;
+}
+
+.texto{
+  font-family: Avenir;
+  font-size: 16px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.imagenes{
+  padding-top: 20px;
+  text-align: center;
+}
+.imagenes span {
+  font-size: 16px;
+  font-family: Avenir-Bold;
+
+}
+.imagenes img {
+  top: 304px;
+  left: 30px;
+  width: 300px;
+  height: 132px;
+}
+.imagenes .img-1 {
+  margin-top: 10px;
+  padding-top: 5px;
+  margin-bottom: 40px;
+}
+.imagenes .img-2 {
+  margin-bottom: 40px;
+}
+.imagenes .img-3 {
+  margin-bottom: 40px;
+}
+
+.btn-login {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 188px;
+  height: 40px;
+  border-radius: 0;
+
+}
+.text-btn {
+  font-family: Avenir;
+  font-size: 16px;
+}
+.linea {
+  display: flex; /* Usa flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  height: 32px;
+  background-color: #E50020;
+  color:#FFFFFF;
+  font-family: Avenir;
+  font-size: 10px;
+
+}
+

@@ -1,0 +1,30 @@
+<section class="terminos">
+  <div class="wrapper">
+    <mat-drawer-container>
+      <mat-drawer #drawer mode='over' position="start">
+        <app-left-sidebar (cerrar)="drawer.toggle()"></app-left-sidebar>
+      </mat-drawer>
+      <app-header-app (drawer)="drawer.toggle()"></app-header-app>
+      <div class="body-terminos">
+        <div class="titulo">
+          <img src="/assets/images/titulo-shape.png" alt="">
+          <span class="titulo-terminos">Términos y condiciones</span>
+        </div>
+
+        <div class="texto">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, repellendus? Tempore, quo totam?</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae iusto nulla maxime aliquam. Dicta et, veniam odit laboriosam non laudantium. Vel impedit laborum dolorum totam mollitia.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae iusto nulla maxime aliquam. Dicta et, veniam odit laboriosam non laudantium. Vel impedit laborum dolorum totam mollitia.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae iusto nulla maxime aliquam. Dicta et, veniam odit laboriosam non laudantium. Vel impedit laborum dolorum totam mollitia.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae iusto nulla maxime aliquam. Dicta et, veniam odit laboriosam non laudantium. Vel impedit laborum dolorum totam mollitia.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, perferendis.</p>
+        </div>
+
+        <!--FOOTER-->
+        <div class="footer">
+          <app-footer-app></app-footer-app>
+        </div>
+      </div>
+    </mat-drawer-container>
+  </div>
+</section>

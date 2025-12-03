@@ -1,0 +1,46 @@
+<section class="perfil">
+  <div class="wrapper">
+    <mat-drawer-container>
+      <mat-drawer #drawer mode="over" position="start">
+        <app-left-sidebar (cerrar)="drawer.toggle()"></app-left-sidebar>
+      </mat-drawer>
+      <app-header-app (drawer)="drawer.toggle()"></app-header-app>
+
+      <div class="body-perfil">
+        <div class="titulo">
+          <img src="/assets/images/titulo-shape.png" alt="" />
+          <span class="titulo-terminos">Perfil del usuario</span>
+        </div>
+
+        <div class="contenido">
+          <div class="foto">
+            <img src="/assets/images/perfil.jpeg" alt="" />
+          </div>
+          <div class="nombre">
+            <span class="tiago">Tiago Gómez Cordero</span>
+          </div>
+
+          <div class="tabla">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Desarrollo de sitios web</td>
+                </tr>
+                <tr>
+                  <td>Luis Yael Mendez Sanchez</td>
+                </tr>
+                <tr>
+                  <td>Otoño 2025</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--FOOTER-->
+        <div class="footer">
+          <app-footer-app></app-footer-app>
+        </div>
+      </div>
+    </mat-drawer-container>
+  </div>
+</section>

@@ -36,11 +36,11 @@ export class LeftSidebarComponent implements OnInit{
   }
 
   public goTiendasParticipantes(){
-
+    window.open("https://twitter.com/?lang=en", "_blank");
   }
 
   public goPerfil(){
-
+    this.router.navigate(["perfil"])
   }
 
   public logout(){

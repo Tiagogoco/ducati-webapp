@@ -1,0 +1,100 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.body-juego {
+  width: 100%;
+  height: 90vh;
+  background-color: #FFFFFF;
+  overflow-y: scroll!important;
+  padding-top: 15px;
+  border-top: 1px solid #7A7A7A1F!important;
+  border-bottom: 1px solid #7A7A7A1F!important;
+}
+
+.titulo {
+  align-items: center;
+  width: 100%;
+  padding-top: 18px;
+  padding-left: 10px;
+  margin-top: 5px;
+
+}
+.titulo span {
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: Avenir-Bold;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.rojo {
+  margin-top: 35px;
+  top: 184px;
+  left: 135px;
+  width: 90px;
+  height: 160px;
+  background-color: #CD0000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 135px;
+}
+
+.puntos {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: center; /* Centrar verticalmente */
+  margin-right: 15px;
+  font-family: Avenir;
+}
+
+.puntos .obtuviste {
+  font-size: 16px;
+  font-family: Avenir-Bold;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #CD0000;
+  text-transform: uppercase;
+}
+.puntos .dosmil {
+  margin-top: 10px;
+  font-size: 72px;
+  font-family: Avenir-Bold;
+  margin-bottom: 20px;
+}
+
+.puntos .pnts {
+  margin-top: 15px;
+  font-size: 24px;
+  font-family: Avenir;
+
+}
+.gracias {
+  margin-top: 45px;
+  text-align: center;
+  padding: 15px;
+  font-family: Avenir;
+  font-size: 16px;
+}
+.gracias .negrita {
+  font-family: Avenir-Bold;
+}
+
+.btn-login {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 188px;
+  height: 40px;
+  border-radius: 0;
+
+}
+.text-btn {
+  font-family: Avenir;
+  font-size: 16px;
+}
